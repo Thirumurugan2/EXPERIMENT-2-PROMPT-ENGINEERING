@@ -1,4 +1,4 @@
-# EXP-2-PROMPT-ENGINEERING-  Comparative Analysis of different types of Prompting patterns and explain with Various Test Scenarios
+# EXP-2-PROMPT-ENGINEERING-
 
 ## Aim: 
 Comparative Analysis of different types of Prompting patterns and explain with Various Test Scenarios
@@ -7,39 +7,45 @@ Experiment:
 Test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios. 
 Analyze the quality, accuracy, and depth of the generated responses.
 
+
 ## Algorithm:
-Choose a test scenario (e.g., solving a math problem, generating a story, writing code, or summarizing text).
 
-Apply different prompting patterns (zero-shot, few-shot, chain-of-thought, etc.).
+*Identify different prompt styles: Broad, Basic, Refined.
 
-Record model output for each prompt.
+*Select multiple test scenarios:
 
-Compare responses in terms of accuracy, relevance, depth, and clarity.
+  1.Automated Test Script Generation
 
-Analyze which prompt type gives the best result for the scenario.
+  2.Bug Identification in Test Cases
 
-## Prompt:
-Unstructured Prompt: “Factorial program.”
+  3.Performance Test Planning
 
-Output: Incomplete/unclear.
+*Apply each prompt type to the scenarios.
 
-Zero-Shot Prompt: “Write Python program to find factorial of a number.”
+*Document and evaluate outputs based on clarity, accuracy, depth, and relevance.
 
-Output: Provides correct code.
-
-Few-Shot Prompt: “Example: Python program for Fibonacci series: … Now write factorial program.”
-
-Output: Correct and contextual.
-
-Chain-of-Thought Prompt: “Explain step by step and then give Python code for factorial.”
-
-Output: Explanation + correct code.
-
-Role-Based Prompt: “You are a Python tutor. Write and explain factorial program.”
-
-Output: Clean code with beginner-friendly explanation.
+*Compare the results and analyze which prompting style yields the best outcome.
 
 ## Output
-The responses of the model varied depending on the prompting pattern. Unstructured prompts gave vague or incomplete answers, while zero-shot prompts provided correct but basic responses. Few-shot prompts improved creativity and context, chain-of-thought prompts gave step-by-step explanations with clarity, and role-based prompts delivered detailed, user-friendly answers.
+
+<img width="1625" height="349" alt="image" src="https://github.com/user-attachments/assets/32dc901d-5678-49b1-aa3c-edef0c010da7" />
+
+<img width="1590" height="499" alt="image" src="https://github.com/user-attachments/assets/ed9ad4b2-9c0c-45f6-9354-33950b96f74d" />
+
+<img width="1572" height="430" alt="image" src="https://github.com/user-attachments/assets/2f259965-f880-47c3-a0ad-5c37ec8a7546" />
+
+<img width="1564" height="436" alt="image" src="https://github.com/user-attachments/assets/89b9bf45-9364-4ace-b537-adc68946345b" />
+
+
+
 ## Result
-From the analysis, it is observed that structured prompting patterns such as few-shot, chain-of-thought, and role-based give more accurate, clear, and well-organized results compared to unstructured or basic zero-shot prompts. Hence, prompt engineering plays an important role in improving the quality and depth of model responses.
+
+From the comparison, it is evident that:
+
+    1.Broad prompts → produce vague and generic results with minimal usability.
+
+    2.Basic prompts → give moderately useful results but lack completeness.
+
+    3.Refined prompts → generate highly detailed, accurate, and context-aware outputs, making them the most effective for software testing tasks.
+
+👉 Thus, precise and structured prompt design significantly enhances the quality and practicality of AI-assisted testing.
